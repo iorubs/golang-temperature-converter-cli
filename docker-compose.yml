@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  temp:
+    image: golang:1.14.0-alpine
+    tty: true
+    working_dir: /go/src/temp
+    volumes:
+      - ./:/go/src/temp

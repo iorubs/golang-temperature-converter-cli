@@ -10,3 +10,8 @@ Then, invoke the binary passing as argument the unit of temperature we want to c
 For example:
 
 `./temp C` to convert from Celsius to Fahrenheit or `./temp F` to convert from Fahrenheit to Celsius.
+
+## Start Docker dev env
+
+1. docker-compose run --rm temp sh
+3. Follow Usage steps
